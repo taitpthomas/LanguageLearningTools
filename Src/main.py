@@ -17,6 +17,7 @@ import os
 # Global exit flag
 done = False
 
+
 def hotkey_done():
     global done
     done = True
@@ -43,6 +44,7 @@ def hotkey_speak(speak_client, speak_voice, speak_audio_config):
 
     # playsound
     playsound('output.mp3')
+
     # workaround for playsound not releasing the audio file
     os.remove('output.mp3')
 
