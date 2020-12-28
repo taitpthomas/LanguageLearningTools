@@ -1,4 +1,9 @@
 """Synthesizes speech from the input string of text or ssml.
+Required package:
+    pip install --upgrade google-cloud-texttospeech
+    pip install keyboard
+    pip install playsound
+    pip install pyperclip
 
 Note: ssml must be well-formed according to:
     https://www.w3.org/TR/speech-synthesis/
